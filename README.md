@@ -4,7 +4,7 @@
 
   ## Description
 
-    An app that generates a README file for your projects! Made with Node.js.
+    An app that generates README files for your projects! Made with Node.js. 
 
 
   ## Table of Contents
