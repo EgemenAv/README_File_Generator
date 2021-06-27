@@ -4,7 +4,7 @@
 
   ## Description
 
-    An app that creates a README file for your projects! Made with Javascript and Node.js.
+    An app that creates a README file for your projects! Made with Node.js.
 
 
   ## Table of Contents
@@ -24,7 +24,7 @@
 
   ## License
          
-        [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](https://opensource.org/licenses/MIT)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](https://opensource.org/licenses/MIT)
     MIT
 
   ## Contributing
@@ -44,6 +44,6 @@
     
   ## Information
      
-    This README file is made with README File Generator!
+    This README file is created with README File Generator!
    
     

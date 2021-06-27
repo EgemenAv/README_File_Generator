@@ -5,7 +5,7 @@ function getLicenseSection(name) {
         return '';
     }else{
         return `       
-        [![License: ${name}](https://img.shields.io/badge/License-${name.replace(/\s/g, '%20')}-informational.svg)](https://opensource.org/licenses/${name.replace(/\s/g, '-')})`;
+    [![License: ${name}](https://img.shields.io/badge/License-${name.replace(/\s/g, '%20')}-informational.svg)](https://opensource.org/licenses/${name.replace(/\s/g, '-')})`;
     }
 }
 
