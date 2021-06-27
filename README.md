@@ -1,49 +1,49 @@
 
-    # Project Title : README File Generator
+  # Project Title : README File Generator
       
 
-    ## Description
+  ## Description
 
-        An app that creates a README file for your projects. Made with Javascript and Node.js.
+    An app that creates a README file for your projects! Made with Javascript and Node.js.
 
 
-    ## Table of Contents
+  ## Table of Contents
 
-    * [Installation](#installation)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
-    * [Information](#information)
+  * [Installation](#installation)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [Information](#information)
      
 
-    ## Installation
+  ## Installation
 
-        npm install
+    npm install
 
 
-    ## License
-               
+  ## License
+         
         [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](https://opensource.org/licenses/MIT)
-        MIT
+    MIT
 
-    ## Contributing
+  ## Contributing
 
-        Contact the author via email.
-
-
-    ## Tests
+    Contact the author via email.
 
 
-    ## Questions
+  ## Tests
+
+
+  ## Questions
 
     Github User Name:  [EgemenAv](https://github.com/EgemenAv)
     
     Email Address :   ege99@my.yorku.ca
    
     
-    ## Information
+  ## Information
      
-        This README file is made with README File Generator!
-    
+    This README file is made with README File Generator!
+   
     

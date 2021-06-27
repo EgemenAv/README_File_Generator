@@ -11,52 +11,52 @@ function getLicenseSection(name) {
 
 function generateMD(answers) {
     const text = `
-    # Project Title : ${answers.projectName}
+  # Project Title : ${answers.projectName}
       
 
-    ## Description
+  ## Description
 
-        ${answers.desc}
+    ${answers.desc}
 
 
-    ## Table of Contents
+  ## Table of Contents
 
-    * [Installation](#installation)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
-    * [Information](#information)
+  * [Installation](#installation)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [Information](#information)
      
 
-    ## Installation
+  ## Installation
 
-        ${answers.install}
-
-
-    ## License
-        ${getLicenseSection(answers.license)}
-        ${answers.license}
-
-    ## Contributing
-
-        ${answers.contribute}
+    ${answers.install}
 
 
-    ## Tests
+  ## License
+  ${getLicenseSection(answers.license)}
+    ${answers.license}
+
+  ## Contributing
+
+    ${answers.contribute}
 
 
-    ## Questions
+  ## Tests
+
+
+  ## Questions
 
     Github User Name:  [${answers.username}](https://github.com/${answers.username})
     
     Email Address :   ${answers.email}
    
     
-    ## Information
+  ## Information
      
-        ${answers.info}
-    
+    ${answers.info}
+   
     `;
 
     fs.writeFile('README.md', text,  err => {
