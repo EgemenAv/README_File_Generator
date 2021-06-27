@@ -5,7 +5,7 @@ function getLicenseSection(name) {
         return '';
     }else{
         return `       
-    [![License: ${name}](https://img.shields.io/badge/License-${name.replace(/\s/g, '%20')}-informational.svg)](https://opensource.org/licenses/${name.replace(/\s/g, '-')})`;
+[![License: ${name}](https://img.shields.io/badge/License-${name.replace(/\s/g, '%20')}-informational.svg)](https://opensource.org/licenses/${name.replace(/\s/g, '-')})`;
     }
 }
 
@@ -36,6 +36,7 @@ function generateMD(answers) {
 
   ## License
   ${getLicenseSection(answers.license)}
+    
     ${answers.license}
 
   ## Contributing
@@ -48,9 +49,9 @@ function generateMD(answers) {
 
   ## Questions
 
-    Github User Name:  [${answers.username}](https://github.com/${answers.username})
+  Github User Name:  [${answers.username}](https://github.com/${answers.username})
     
-    Email Address :   ${answers.email}
+  Email Address :   ${answers.email}
    
     
   ## Information

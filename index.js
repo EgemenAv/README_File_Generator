@@ -18,7 +18,7 @@ const questions = [
     {
         type: 'input',
         name: 'username',
-        message: 'Github username (Required):',
+        message: 'Github Username (Required):',
         validate: function (value) {
             if (value) {
                 return true;
@@ -54,7 +54,7 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'Please select a license',
+        message: 'Please select a license:',
         choices: ['None', 'MIT', 'ISC', 'IPL 1.0', 'MBL 2.0']
     },
     {
@@ -65,7 +65,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribute',
-        message: 'How to Contribute:'
+        message: 'How to contribute:'
     },
     {
         type: 'input',

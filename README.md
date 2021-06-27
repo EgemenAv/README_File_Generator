@@ -4,7 +4,7 @@
 
   ## Description
 
-    An app that creates a README file for your projects! Made with Node.js.
+    An app that generates a README file for your projects! Made with Node.js.
 
 
   ## Table of Contents
@@ -24,7 +24,8 @@
 
   ## License
          
-    [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](https://opensource.org/licenses/MIT)
+    
     MIT
 
   ## Contributing
@@ -37,13 +38,13 @@
 
   ## Questions
 
-    Github User Name:  [EgemenAv](https://github.com/EgemenAv)
+  Github User Name:  [EgemenAv](https://github.com/EgemenAv)
     
-    Email Address :   ege99@my.yorku.ca
+  Email Address :   ege99@my.yorku.ca
    
     
   ## Information
      
-    This README file is created with README File Generator!
+    This README file is generated with README File Generator!
    
     
