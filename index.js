@@ -1,11 +1,12 @@
 const inquirer = require('inquirer');
-const fs = require('fs');
+
+const generateMD = require('./generateMD');
 
 const questions = [
     {
         type: 'input',
         name: 'projectName',
-        message: 'Please enter the project\'s name (Required)',
+        message: 'Project Name (Required):',
         validate: function (value) {
             if (value) {
                 return true;
@@ -17,7 +18,7 @@ const questions = [
     {
         type: 'input',
         name: 'username',
-        message: 'Please enter your github username (Required)',
+        message: 'Github username (Required):',
         validate: function (value) {
             if (value) {
                 return true;
@@ -29,7 +30,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'Please enter your email (Required)',
+        message: 'Email (Required):',
         validate: function (value) {
             if (value) {
                 return true;
@@ -41,7 +42,7 @@ const questions = [
     {
         type: 'input',
         name: 'desc',
-        message: 'Please enter a short description for the project (Required)',
+        message: 'Description (Required):',
         validate: function (value) {
             if (value) {
                 return true;
@@ -54,29 +55,36 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please select a license',
-        choices: ['None','MIT', 'ISC', 'IBM','Mozilla Public License 2.0']
+        choices: ['None', 'MIT', 'ISC', 'IPL 1.0', 'MBL 2.0']
     },
     {
         type: 'input',
         name: 'install',
-        message: 'Please enter the dependencies that must be installed'
+        message: 'Installation:'
     },
     {
         type: 'input',
         name: 'contribute',
-        message: 'How to contribute to the repository'
+        message: 'How to Contribute:'
     },
     {
         type: 'input',
         name: 'info',
-        message: 'Please enter any further information here'
+        message: 'Further Information:'
     }
 ];
 
 async function inquiry() {
+
+    console.log(`
+    =====================
+    README File Generator       
+    =====================
+    `);
+
     const answers = await inquirer.prompt(questions);
 
-    console.log(answers);
+    generateMD.generateMD(answers);
 }
 
 inquiry();
