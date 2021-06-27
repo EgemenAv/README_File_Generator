@@ -38,9 +38,9 @@
 
   ## Questions
 
-    Github User Name:  [EgemenAv](https://github.com/EgemenAv)
+  Github User Name:  [EgemenAv](https://github.com/EgemenAv)
     
-    Email Address :   ege99@my.yorku.ca
+  Email Address :   ege99@my.yorku.ca
    
     
   ## Information
