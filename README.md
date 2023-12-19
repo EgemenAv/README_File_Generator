@@ -40,7 +40,7 @@
 
   Github User Name:  [EgemenAv](https://github.com/EgemenAv)
     
-  Email Address :   ege99@my.yorku.ca
+  Email Address :   egemen.avci.cs@gmail.com
    
     
   ## Information
